@@ -1,0 +1,22 @@
+[
+    {
+        "slug": "virgo-vs-the-zodiac",
+        "name": "Virgo Vs The Zodiac",
+        "people": [
+            {
+                "name": "Moonana",
+                "social": {
+                    "twitter": { "id": 707562139037396992 }
+                },
+                "credits": [],
+                "jobs": []
+            }
+        ],
+        "campaign_hashtag": "vvtz",
+        "social": {
+            "twitter": { "id": 3068030775 }
+        },
+
+        "anticipated_release": { "quarter": "Q4", "year": 2018 }
+    }
+]
