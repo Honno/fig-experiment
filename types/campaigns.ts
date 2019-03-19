@@ -11,6 +11,8 @@ export enum CampaignTypes {
     Buyout = "Buyout"
 }
 
+export type Campaigns = ActiveCampaign | FailedCampaign | IndevCampaign | ReleasedCampaign | BuyoutCampaign
+
 /* Campaigns */
 
 interface Campaign {

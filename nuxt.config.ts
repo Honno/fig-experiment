@@ -18,4 +18,10 @@ export default {
         "nuxt-buefy"
     ],
     axios: {},
+
+    generate: {
+        routes: [
+            '/projects/virgo-vs-the-zodiac'
+        ]
+    }
 }
