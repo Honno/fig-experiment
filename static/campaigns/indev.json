@@ -2,11 +2,14 @@
     {
         "slug": "virgo-vs-the-zodiac",
         "name": "Virgo Vs The Zodiac",
+        "description": "Embark on a cosmic quest to dethrone the Zodiacs and revive the Golden Age, if the galaxy survives your wrath, that is.",
         "people": [
             {
                 "name": "Moonana",
                 "social": {
-                    "twitter": { "id": 707562139037396992 }
+                    "twitter": {
+                        "id": 707562139037396992
+                    }
                 },
                 "credits": [],
                 "jobs": []
@@ -14,9 +17,13 @@
         ],
         "campaign_hashtag": "vvtz",
         "social": {
-            "twitter": { "id": 3068030775 }
+            "twitter": {
+                "id": 3068030775
+            }
         },
-
-        "anticipated_release": { "quarter": "Q4", "year": 2018 }
+        "anticipated_release": {
+            "quarter": "Q4",
+            "year": 2018
+        }
     }
 ]
