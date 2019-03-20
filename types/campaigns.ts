@@ -11,11 +11,11 @@ export enum CampaignTypes {
     Buyout = "Buyout"
 }
 
-export type Campaigns = ActiveCampaign | FailedCampaign | IndevCampaign | ReleasedCampaign | BuyoutCampaign
+export type Campaign = ActiveCampaign | FailedCampaign | IndevCampaign | ReleasedCampaign | BuyoutCampaign
 
 /* Campaigns */
 
-interface Campaign {
+interface CampaignBase {
     slug: string;
     name: string;
     company?: Company;
@@ -28,20 +28,20 @@ interface Campaign {
     antipated_release: ReleaseDate;
 }
 
-export interface ActiveCampaign extends Campaign {
+export interface ActiveCampaign extends CampaignBase {
 }
 
-export interface FailedCampaign extends Campaign {
+export interface FailedCampaign extends CampaignBase {
 }
 
-export interface IndevCampaign extends Campaign {
+export interface IndevCampaign extends CampaignBase {
 }
 
-export interface ReleasedCampaign extends Campaign {
+export interface ReleasedCampaign extends CampaignBase {
     dividens: Payout[];
 }
 
-export interface BuyoutCampaign extends Campaign {
+export interface BuyoutCampaign extends CampaignBase {
     buyout: Payout;
     buyout_by: Company;
 }

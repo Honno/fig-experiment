@@ -19,7 +19,6 @@ export interface Person {
 
 export interface Game {
     name: string;
-    site?: URL;
     social: Social;
 }
 
